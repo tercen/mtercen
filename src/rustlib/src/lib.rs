@@ -39,12 +39,13 @@ pub fn acast_vec(ri: IntVec, ci: IntVec, values: NumVec, nrow: usize, ncol: usiz
 
         for ii in 0..len {
             if count[ii] > 0 {
-                let v = (matrix.uat(ii) - fill) / (count[ii] as f64);
+                let v = (matrix.uat(ii)) / (count[ii] as f64);
                 matrix.uset(ii, v);
+            } else {
+                matrix.uset(ii, fill);
             }
         }
     }
-
 
     return Ok(matrix);
 }
