@@ -12,7 +12,7 @@ rbenchmark::benchmark("mtercen::acast" = {
                data$.ci, 
                data$.y,
                nrows,
-               ncols, 0.042), 
+               ncols, 0.042),
          nrow = nrows,
          ncol=ncols)
 },
@@ -31,6 +31,14 @@ matrix(mtercen::acast(data$.ri,
                       ncols, 0.042), 
        nrow = nrows,
        ncol=ncols)
+
+matrix(mtercen::acast(data$.ri,
+data$.ci,
+data$.y,
+nrows,
+ncols, NaN),
+nrow = nrows,
+ncol=ncols)
 
 
 reshape2::acast(data, .ri ~ .ci, value.var='.y', fun.aggregate=mean, fill=0.042)

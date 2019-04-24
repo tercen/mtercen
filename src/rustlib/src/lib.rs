@@ -16,7 +16,7 @@ pub fn acast_vec(ri: IntVec, ci: IntVec, values: NumVec, nrow: usize, ncol: usiz
 
     unsafe {
         for i in 0..len {
-            matrix.uset(i, fill);
+            matrix.uset(i, 0.0);
         }
     }
 
