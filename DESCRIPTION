@@ -1,10 +1,10 @@
 Package: mtercen
 Type: Package
 Title: cast matrix 
-Version: 1.0
+Version: 1.0.0
 Date: 2019-04-07
 Author: Alexandre Maurel
-Maintainer: Alexandre Maurel <alexandre.maurrel@gmail.com>
+Maintainer: Alexandre Maurel <alexandre.maurel@gmail.com>
 Description: cast matrix 
 License: MIT
 SystemRequirements: cargo, rustc
