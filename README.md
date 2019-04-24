@@ -3,7 +3,7 @@ Tercen utility R package
 # Install 
 
 ```R
-devtools::install_github("tercen/mtercen", ref = "1.0.0", upgrade_dependencies = FALSE, args="--no-multiarch")
+devtools::install_github("tercen/mtercen", ref = "1.0.1", upgrade_dependencies = FALSE, args="--no-multiarch")
 ```
 
 # Build rust
