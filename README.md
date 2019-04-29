@@ -3,7 +3,7 @@ Tercen utility R package
 # Install 
 
 ```R
-devtools::install_github("tercen/mtercen", ref = "1.0.4", upgrade_dependencies = FALSE, args="--no-multiarch")
+devtools::install_github("tercen/mtercen", ref = "1.0.5", args="--no-multiarch")
 
 devtools::install_github("tercen/mtercen", upgrade_dependencies = FALSE, args="--no-multiarch")
 ```
