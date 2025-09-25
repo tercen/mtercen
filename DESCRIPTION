@@ -1,7 +1,7 @@
 Package: mtercen
 Type: Package
 Title: cast matrix 
-Version: 1.0.8
+Version: 1.0.9
 Date: 2019-04-07
 Author: Alexandre Maurel
 Maintainer: Alexandre Maurel <alexandre.maurel@gmail.com>
